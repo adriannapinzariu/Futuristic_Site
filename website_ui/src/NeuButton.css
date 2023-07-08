@@ -1,0 +1,15 @@
+.neuButton {
+    background-color: #222222;
+    border: none;
+    padding: 15px 30px;
+    font-size: 18px;
+    border-radius: 50px;
+    color: #dddddd;
+    box-shadow:  5px 5px 10px #222222,
+                 -5px -5px 10px #666666;
+}
+
+.neuButton:active {
+    box-shadow:  inset 1px 1px 2px #222222,
+                 inset -1px -1px 2px #666666;
+}

@@ -4,6 +4,7 @@ import Navbar from './Navbar';
 import Hero from './Hero';
 import Main from './Main';
 import Footer from './Footer';
+import NeuButton from './NeuButton';
 
 function App() {
   return (
@@ -11,6 +12,7 @@ function App() {
       <Navbar />
       <Hero />
       <Main />
+        <NeuButton />
       <Footer />
     </div>
   );
